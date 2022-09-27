@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200&family=Alegreya+Sans:ital,wght@1,300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Alegreya+Sans:ital,wght@1,300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/*Formatações Padrões*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 16px;
+
+}
+
+hr{
+    width: 60%;
+    margin: 9px auto;
+}
+
+/*Cabecalho*/
+
+.cabecalho{
+    background: rgb(255, 196, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.cabecalhoTitulo{
+    color: black;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 4em;
+    padding: 20px;
+}
+
+.cabecalhoTituloBranco{
+    color: white;
+}
+
+.cabecalhoNav{
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoLink{
+    font-family: 'Raleway', sans-serif;
+
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: solid 1px white;
+    padding: 5px 10px 5px 10px;
+
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+.cabecalhoLink:hover{
+    background: black;
+    box-shadow: 4px 4px 5px gray;
+
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+/*Corpo do Projeto*/
+.conteinerPrincipal{
+    border: solid 1px black;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+
+    box-shadow: 2px 4px 10px black;
+    
+}
+
+.postagens{
+    padding: 10px;
+    width: 60%;
+    float: left;
+
+}
+
+.menuLateral{
+    width: 30%;
+    float: right;
+    padding: 10px;
+
+}
+
+.clear{
+    clear: both;
+}
+
+/*Controle das postagens*/
+.postagem1{
+    padding: 10px;
+    width: 95%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.postagem2{
+    padding: 10px;
+    width: 95%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 4px;
+    border: solid 1px black;
+
+}
+
+.tituloPost{
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 1.5em;
+}
+
+.tituloPost2{
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 1.3em;
+}
+
+.subtituloPost{
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 12px;
+    font-style: italic;
+}
+
+.descricaoPost{
+    font-family: 'Work Sans', sans-serif;
+
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.linkPost{
+    font-family: verdana;
+    font-size: 13px;
+
+    margin-top: 5px;
+    color: rgb(255, 204, 0);
+    transition-duration: 0.5s;
+    transition-property: all;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.linkPost:hover{
+    color: black;
+
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.imagem1{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+
+}
+
+/*Rodapé*/
+.rodape{
+    font-family: 'Raleway', sans-serif;
+    
+    font-style: italic;
+    width: 90%;
+    margin: 20px auto 0px auto;
+    border: solid 1px black;
+    
+    
+    padding: 15px;
+    background: whitesmoke;
+    text-align: center;
+
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.rodape:hover{
+    transition-timing-function: top ease 1px;
+    transition-delay: 0s;
+
+    color: white;
+    background: black;
+}

@@ -4,7 +4,7 @@
 
 <section>
   <h6 align="center">Sobre:</h6>
-  <p>Repositório criado para postar (EM BREVE) atividades, exercicios, projetos feitos no curso <a href="https://www.udemy.com/course/web-completo/" target="_blank">Desenvolvimento web completo</a> que atualmente está disponível no site da <a href="https://www.udemy.com/" target="_blank">Udemy</a>, um curso muito bem feito que pode me proporcionar bastante conhecimento para complementar o meu conhecimento nesse ambiente de desenvolvimento Front-End, que era algo que eu não conhecia muito</p>
+  <p>Repositório criado para postar atividades, exercicios, projetos feitos no curso <a href="https://www.udemy.com/course/web-completo/" target="_blank">Desenvolvimento web completo</a> que atualmente está disponível no site da <a href="https://www.udemy.com/" target="_blank">Udemy</a>, um curso muito bem feito que pode me proporcionar bastante conhecimento para complementar o meu conhecimento nesse ambiente de desenvolvimento Front-End, que era algo que eu não conhecia muito</p>
 </section>
 
 <hr>
